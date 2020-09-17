@@ -80,7 +80,7 @@ gem 'groupdate'
 
 gem 'dotenv-rails'
 group :production do
-  gem 'mysql2'
+  gem 'mysql2', '~>0.5.3'
 end
 
 
