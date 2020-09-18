@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  root 'users/home#top'
   namespace :users do
     root 'home#top'
     get 'about' => 'home#about'
